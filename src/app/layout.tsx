@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
-      {/* <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" /> */
+      {/* <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" /> */}
       <body className="min-h-screen flex flex-col bg-black text-white">
         <Header />
         <main className="flex-grow">{children}</main>
